@@ -1,6 +1,6 @@
 # School_District_Analysis
 ## Overview of the school district analysis:
-A hypothetical school board planning meeting is occuring that will hinge on Distric analyse. The analysis has been completed with data regarding school name, size, type, number of students, math and reading grades, and budget numbers. 
+A hypothetical school board planning meeting is occuring that will hinge on Distric analysis. The analysis has been completed with data regarding school name, size, type, number of students, math and reading grades, and budget numbers. 
 
 It was discovered that one of the school's, Thomas High School, 9th grade test scores have been manipulated. In this analysis, I've removed those Thomas High School 9th grade scores and re-run the analysis with final figures. 
 
@@ -19,7 +19,7 @@ District Summary after:
 
 
 ## How is the school summary affected?
-School Summary 
+### School Summary 
 The school summary was only affected on Thomas High school. 
 The overall passing percentage decreased by .3 percent from 90.95 to 90.6%
 the passing math went from 93.27 to 93.18%
@@ -46,20 +46,20 @@ after:
 <img width="1113" alt="Screen Shot 2021-05-09 at 6 22 09 PM" src="https://user-images.githubusercontent.com/14239715/117588753-7e73ec80-b0f3-11eb-90dd-6f8bd6e3ed57.png">
 
 ## How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-As you can see in the third and forth chart below, Thomas High School reading and math scores for the 9th graders are not-a-number. 
+### Math and reading scores by grade
+As you can see in the third and fourth chart below, Thomas High School reading and math scores for the 9th graders are not-a-number. 
 
 before:
-<img width="551" alt="Screen Shot 2021-05-09 at 6 27 48 PM" src="https://user-images.githubusercontent.com/14239715/117588873-4f11af80-b0f4-11eb-96f5-512aed3cd395.png">
+Chart 1: <img width="551" alt="Screen Shot 2021-05-09 at 6 27 48 PM" src="https://user-images.githubusercontent.com/14239715/117588873-4f11af80-b0f4-11eb-96f5-512aed3cd395.png">
 
-<img width="442" alt="Screen Shot 2021-05-09 at 6 26 21 PM" src="https://user-images.githubusercontent.com/14239715/117588874-4faa4600-b0f4-11eb-9455-4edfc0e9b1ec.png">
+Chart 2: <img width="442" alt="Screen Shot 2021-05-09 at 6 26 21 PM" src="https://user-images.githubusercontent.com/14239715/117588874-4faa4600-b0f4-11eb-9455-4edfc0e9b1ec.png">
 
-<img width="435" alt="Screen Shot 2021-05-09 at 6 24 21 PM" src="https://user-images.githubusercontent.com/14239715/117588795-ceeb4a00-b0f3-11eb-8635-a9afb5a19bbc.png">
+Chart 3: <img width="435" alt="Screen Shot 2021-05-09 at 6 24 21 PM" src="https://user-images.githubusercontent.com/14239715/117588795-ceeb4a00-b0f3-11eb-8635-a9afb5a19bbc.png">
 
-<img width="455" alt="Screen Shot 2021-05-09 at 6 24 09 PM" src="https://user-images.githubusercontent.com/14239715/117588796-ceeb4a00-b0f3-11eb-909c-baaa47e945dd.png">
+Chart 4: <img width="455" alt="Screen Shot 2021-05-09 at 6 24 09 PM" src="https://user-images.githubusercontent.com/14239715/117588796-ceeb4a00-b0f3-11eb-909c-baaa47e945dd.png">
 
 ## Scores by school spending
-When all of the schools are aggregated to spend buckets, the change in Thomas High School no longer has any effect.  
+When all of the schools are aggregated to 5 spend buckets, the change in Thomas High School no longer has any effect.  
 before:<img width="865" alt="spending_before" src="https://user-images.githubusercontent.com/14239715/117589133-bda33d00-b0f5-11eb-8ca0-915b97546d25.png">
 
 
@@ -67,7 +67,8 @@ after:<img width="945" alt="Screen Shot 2021-05-09 at 6 32 47 PM" src="https://u
 
 
 ## Scores by school size
-School size is an even higher level of detail that school spending as the values are aggregated into three buckets. There is no effect. 
+School size is an even higher level of detail that school spending as the values are aggregated into three buckets. There is no effect.
+
 before: <img width="887" alt="Size before" src="https://user-images.githubusercontent.com/14239715/117589145-cdbb1c80-b0f5-11eb-8628-6e6860d9d39b.png">
 
 
@@ -86,7 +87,7 @@ after:
 <img width="912" alt="Screen Shot 2021-05-09 at 6 33 59 PM" src="https://user-images.githubusercontent.com/14239715/117589005-250cbd00-b0f5-11eb-96f7-5ebb7b181ecb.png">
 
 
-# Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+# Summary: 
 
 When the Thomas High 9th grade grades were replaces with NaN, the only effects were shown at the lowest level of detail, of this analysis. 
 
