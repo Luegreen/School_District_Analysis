@@ -1,4 +1,6 @@
 # School_District_Analysis
+Python3, Pandas, Jupyter Notebook, Anaconda, DataFrames and full analysis
+
 ## Overview of the school district analysis:
 A hypothetical school board planning meeting is occuring that will hinge on Distric analysis. The analysis has been completed with data regarding school name, size, type, number of students, math and reading grades, and budget numbers. 
 
